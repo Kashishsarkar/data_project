@@ -1,16 +1,16 @@
-# 🚲 SmartRide Insights: Divvy Bike Usage Analysis
+#  SmartRide Insights: Divvy Bike Usage Analysis
 
 A data analysis project exploring ride patterns and user behaviors from the Divvy bike-sharing dataset. This Python-based tool automates data cleaning, feature extraction, visualization, and summary reporting to uncover key insights.
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 **Source:** \[Divvy Trip Data (June 2025)] — included in the repo as `202506-divvy-tripdata.csv`
-
+Due to file size, the dataset and output Excel file are not uploaded. Please request or download separately.
 ---
 
-## 🧠 Objectives
+##  Objectives
 
 * Analyze ride duration patterns by day, hour, and user type
 * Compare behaviors between member and casual riders
@@ -21,30 +21,30 @@ A data analysis project exploring ride patterns and user behaviors from the Divv
 
 ## ⚙️ Features
 
-✅ **Data Cleaning**
+ **Data Cleaning**
 
 * Converts timestamps
 * Calculates ride duration
 * Removes invalid (negative) rides
 
-✅ **Feature Engineering**
+**Feature Engineering**
 
 * Extracts day of week and hour of ride
 
-✅ **Visualizations**
+ **Visualizations**
 
 * Average ride length by day
 * Rides by hour of the day
 * Member vs Casual comparison
 
-✅ **Automated Output**
+ **Automated Output**
 
 * Summary text report (`summary_report.txt`)
 * Cleaned dataset (`cleaned_divvy_tripdata.xlsx`)
 
 ---
 
-## 📊 Example Insights
+##  Example Insights
 
 * Peak usage occurs around **5 PM** on **Saturdays**
 * **Casual riders** take **30% longer rides** than members
@@ -52,7 +52,7 @@ A data analysis project exploring ride patterns and user behaviors from the Divv
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repo:
 
@@ -76,7 +76,7 @@ python data_project.py
 
 ---
 
-## 📦 Files
+##  Files
 
 | File                          | Description                |
 | ----------------------------- | -------------------------- |
@@ -87,7 +87,7 @@ python data_project.py
 
 ---
 
-## 🙋‍♀️ Author
+##  Author
 
 **Kashish Sarkar**
 📧 [kashishsrkr82@gmail.com](mailto:kashishsrkr82@gmail.com)
@@ -96,7 +96,7 @@ python data_project.py
 
 ---
 
-## ⭐️ Future Add-ons
+##  Future Add-ons
 
 * Correlation heatmaps
 * Ride duration prediction (ML)
@@ -104,4 +104,5 @@ python data_project.py
 
 ---
 
-> 💬 *“Turning messy Excel data into clean, visual insight — one ride at a time.”*
+>  *“Turning messy Excel data into clean, visual insight — one ride at a time.”*
+
